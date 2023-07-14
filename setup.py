@@ -25,20 +25,10 @@ def show_entry_fields():
         p1 = 0
 
     p2 = float(e2.get())
-    # text = clicked1.get()
-    # if text == "Central":
-    #     p3 = 1
-    #
-    # else:
-    #     p3 = 0
+
 
     p4 = float(e4.get())
-    # text = clicked6.get()
-    # if text == "Central":
-    #     p5 = 1
-    #
-    # else:
-    #     p5 = 0
+
 
     text = clicked2.get()
     if text == "Science":
@@ -79,20 +69,7 @@ def show_entry_fields():
     p12 = float(e12.get())
 
     model = joblib.load('model_joblib')
-    # new_data = pd.DataFrame({
-    #     'gender': p1,
-    #     'ssc_p': p2,
-    #     # 'ssc_b': p3,
-    #     'hsc_p': p4,
-    #     # 'hsc_b': p5,
-    #     'hsc_s': p6,
-    #     'degree_p': p7,
-    #     'degree_t': p8,
-    #     'workex': p9,
-    #     'etest_p': p10,
-    #     'specialisation': p11,
-    #     'mba_p': p12,
-    # }, index=[0])
+
     new_data = [[p1, p2, p4, p6, p7, p8, p9, p10, p11, p12]]
     result = model.predict(new_data)
     result1 = model.predict_proba(new_data)
@@ -101,8 +78,7 @@ def show_entry_fields():
         text1 += "Can't Placed"
     else:
         text1 += f"Placement Probability is {round(result1[0][1], 2) * 100} %"
-        # Label(master, text=round(result1[0][1], 2) * 100, font=("Roboto", 15)).grid(row=33)
-        # Label(master, text="Percent", font=("Roboto", 15)).grid(row=34)
+
     return text1
 
 
@@ -127,9 +103,6 @@ ct.CTkLabel(master=frame, text="MBA percentage", font=("Roboto", 15)).grid(row=8
 clicked = StringVar()
 options = ["Male", "Female"]
 
-# clicked1 = StringVar()
-# options1 = ["Central", "Others"]
-
 clicked2 = StringVar()
 options2 = ["Science", "Commerce", "Arts"]
 
@@ -150,18 +123,12 @@ maleRadioButton.grid(row=1, column=1, padx=5, pady=5 )
 femaleRadioButton = ct.CTkRadioButton(master=frame, text="Female", variable=clicked, value="She is")
 femaleRadioButton.grid(row=1, column=2, padx=5, pady=5)
 
-# e2 = Entry(master, bd=3)
 e2 = ct.CTkEntry(master=frame, placeholder_text="Grade")
 e2.grid(row=2, column=1,padx=5, pady=5)
-
-# e3 = ct.CTkOptionMenu(master=frame, values=["Select", "Central", "Others"])
-# e3.grid(row=2, column=3,padx=20, pady=5)
 
 e4 = ct.CTkEntry(master=frame, placeholder_text="Grade")
 e4.grid(row=4, column=1, padx=5, pady=5)
 
-# e5 = ct.CTkOptionMenu(master=frame, values=["Select", "Central", "Others"])
-# e5.grid(row=4, column=3, padx=5, pady=5)
 
 e6 = ct.CTkOptionMenu(master=frame, values=["Select", "Science", "Commerce", "Arts"])
 e6.grid(row=5, column=3,padx=5, pady=5)
