@@ -1,6 +1,0 @@
-gunicorn
-numpy
-flask
-pickle
-
-
