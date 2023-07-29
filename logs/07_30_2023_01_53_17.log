@@ -1,0 +1,8 @@
+[ 2023-07-30 01:53:18,360 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 01:53:18,362 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 01:53:27,744 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 01:53:27,847 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 01:53:27] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 01:53:44,318 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 01:53:44,328 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 01:53:44] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 01:54:10,185 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 01:54:10,198 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 01:54:10] "POST / HTTP/1.1" 200 -
