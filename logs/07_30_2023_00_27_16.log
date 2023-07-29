@@ -1,0 +1,8 @@
+[ 2023-07-30 00:27:17,526 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 00:27:17,534 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 00:27:19,536 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:27:19] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 00:27:37,523 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 00:27:37,635 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:27:37] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 00:27:57,961 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 00:27:57,969 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:27:57] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 00:32:35,472 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Scripts\\conda-script.py', reloading
