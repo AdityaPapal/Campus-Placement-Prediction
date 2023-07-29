@@ -1,0 +1,11 @@
+[ 2023-07-30 00:06:48,566 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 00:06:48,574 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 00:07:00,513 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:00] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:07,573 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:07] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:09,457 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:09] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:09,696 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:09] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:09,923 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:09] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:10,115 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:10] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:10,331 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:07:10] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:07:32,635 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\tempCodeRunnerFile.py', reloading
+[ 2023-07-30 00:07:32,635 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\tempCodeRunnerFile.py', reloading

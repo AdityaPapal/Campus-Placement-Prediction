@@ -1,0 +1,6 @@
+[ 2023-07-30 00:02:07,321 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 00:02:07,329 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 00:02:07,345 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:02:07] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 00:02:13,254 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 00:02:13,254 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 00:02:13,263 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading

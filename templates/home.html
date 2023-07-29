@@ -1,210 +1,127 @@
-<!DOCTYPE html>
-<html >
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Campus Placement Prediction</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {background-color: #d0d6d6;font-family: 'Lexend Deca', Helvetica, sans-serif;}* {box-sizing: border-box;}
-    input[type=text] {
-        width: 30%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 0px;
-        margin-bottom: 16px;
-        resize: vertical; 
-        font-family: 'Trebuchet MS', sans-serif;
-    }
-    input[type=submit] {
-        background-color: #202120;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 230px;
-    }
-    input[type=submit]:hover {
-        background-color: hsl(123, 40%, 45%);
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Trebuchet MS', sans-serif;
-    }
-    .form_wrapper {
-        flex:1;
-        text-align: center;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Placement Prediction</title>
+    <div style="background-image: url(https://www.repairerdrivennews.com/wp-content/uploads/2021/01/poaching-employee-iStock-1272298831-1536x987.jpg);">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    .container {
-        width: 40%;
-        border-radius: 5px;
-        background-color: #8d8f90;
-        padding: 20px;
-        /* display: flex; */
-        text-align: center;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    label {
-        display: inline-block;
-        width: 300px;
-        text-align: left;
-        font-family: 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
-    }
-    div{
-        margin-bottom: 2px;
-    }
-    .selects{
-        width: 30%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 1px;
-        resize: vertical; 
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Trebuchet MS', sans-serif;
-    }
 
-    h1 {
-        text-align: center;
-        font-family: 'Trebuchet MS', sans-serif;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-    h2 {
-        margin: 1em 0 0.5em 0;
-        color: #343434;
-        font-weight: normal;
-        font-family: 'Trebuchet MS', sans-serif;
-        font-size: 36px;
-        line-height: 42px;
-        text-transform: uppercase;
-        /* text-shadow: 0 2px white, 0 3px #777; */
-        text-align: center;
-    }
-    h3 {
-        margin: 1em 0 0.5em 0;
-        color: #343434;
-        font-weight: normal;
-        font-family: 'Trebuchet MS', sans-serif;
-        font-size: 36px;
-        line-height: 42px;
-        text-transform: uppercase;
-        /* text-shadow: 0 2px white, 0 3px #777; */
-        text-align: center;
-        display: inline-block;
-    }
-    h4 {
-        margin: 1em 0 0.5em 0;
-        color: #343434;
-        font-size: 22px;
-        line-height: 40px;
-        font-weight: normal;
-        text-transform: uppercase;
-        font-family: 'Trebuchet MS', sans-serif;
-        letter-spacing: 1px;
-        font-style: italic;
-    }
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+    
 
-  </style>
 </head>
 
 <body>
- <div class="login">
-	<h1>Campus Placement Prediction</h1>
 
-    <div class="container" >
-    <form action="{{ url_for('predict')}}"method="post">
-
-        
-        <div class="form-group">
-            <label for="gender" ,> Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><td>
-                <select name="gender" class="selects">
-                    <option value="M">Male</option>
-                    <option value="F">Female</option>
-                </select></td>
-        </div><br>
-
-        <label>SSC Grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text" name="ssc_p" placeholder="percentage" required="required" /><br>
-        
-        <label>HSC Grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text" name="hsc_p" placeholder="Percentage" required="required" /><br>
-        
-    	<div class="form-group">
-            <label for="hsc_s1">Specialization in HSC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select name="hsc_s1" class="selects">
-                <option value="Commerce">Commerce</option>
-                <option value="Science">Science</option>
-                <option value="Others">Others</option>
-            </select>
-        </div><br>
-
-        <label>Degree Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text" name="degree_p" placeholder="percentage"required="required" /><br>
-
-
-        <div class="form-group">
-        <label for="degree_t1">UG Degree Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select name="degree_t1" class="selects">
-                <option value="Sci&Tech">Sci&Tech</option>
-                <option value="Comm&Mgmt">Comm&Mgmt</option>
-                <option value="Arts">Arts</option>
-            </select>
-        </div><br>
-
-        <div class="form-group">
-            <label for="workex1">Work Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select name="workex1" class="selects">
-                <option value="No">No</option>
-                <option value="Yes">Yes</option>
-            </select>
-        </div><br>
-
-        <label>Employability test percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text" name="etest_p" placeholder="percentage"required="required" /><br>
-
-        <div class="form-group">
-            <label for="specialisation1">Specialization&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select name="specialisation1" class="selects">
-                <option value="Mkt&HR">Mkt&HR</option>
-                <option value="Mkt&Fin">Mkt&Fin</option>
-            </select>
-        </div><br>
-
-        <label>MBA Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text" name="mba_p" placeholder="percentage"required="required" /><br>
-
-
-        <div class="btn btn-primary btn-block btn-large">
-            <input type="submit" value="Submit" />
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Campus Placement Prediction BY Yash Mohite</a>
+            </div>
         </div>
-    </form>
+    </nav>
 
-   <br>
-   <br>
-   <br>
-    
-   <h2>PLACEMENT PREDICTION</h2>
-   <h3>Result</h3>
-   
-    <div class="prediction">
-       <h4>{{prediction_text}}</h4>
-    </div>
+    <br><br><br>
 
-    </div>
- </div>
- 
- 
+
+    <div class="container">
+        <form action="{{url_for('predict_datapoint')}}" method="POST">
+            <h1>Campus Placement Prediction</h1>
+            <div class="form-group">
+                <label for="ssc_p">SSC_Marks:</label>
+                <input type="text" id="ssc_p" name="ssc_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="hsc_p">HSC_Marks:</label>
+                <input type="text" id="hsc_p" name="hsc_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="hsc_s">Stream:</label>
+                <select id="hsc_s" name="hsc_s">
+                    <option value="1">Commerce</option>
+                    <option value="2">Science</option>
+                    <option value="0">Arts</option>               
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="degree_p">Degree_Marks:</label>
+                <input type="text" id="degree_p" name="degree_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="degree_t">Degree Stream:</label>
+                <select id="degree_t" name="degree_t">
+                    <option value="2">Sci/Tech</option>
+                    <option value="0">Comm/Mgmt</option>
+                    <option value="1">Others</option>               
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="workex">Work Experience:</label>
+                <select id="workex" name="workex">
+                    <option value="0">No</option>
+                    <option value="2">Yes</option>                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="etest_p">Aptitude Test:</label>
+                <input type="text" id="etest_p" name="etest_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="specialisation">Specialisation:</label>
+                <select id="specialisation" name="specialisation">
+                    <option value="1">Mkt/HR</option>
+                    <option value="0">Mkt/Fin</option>                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mba_p">MBA Marks:</label>
+                <input type="text" id="mba_p" name="mba_p" placeholder="Enter value">
+            </div>
+
+<!-- Submit -->
+<input type="submit" value="Predict" class="btn btn-secondary">
+</form>
+
+<br>
+<br>
+<h3 style="color: black">{{ final_result }}</h3>
+
+<br>
+<br>
+<p>Yash Mohite</p>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
 
 </body>
+
 </html>
+
+
+
+            
+

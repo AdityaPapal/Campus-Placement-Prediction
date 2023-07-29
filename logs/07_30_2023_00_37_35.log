@@ -1,0 +1,11 @@
+[ 2023-07-30 00:37:36,655 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 00:37:36,655 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 00:40:31,042 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 00:40:31,168 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:40:31] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 00:40:45,775 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[ 2023-07-30 00:40:45,806 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[ 2023-07-30 00:40:45,900 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+[ 2023-07-30 00:40:46,091 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[ 2023-07-30 00:40:46,132 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+[ 2023-07-30 00:40:46,881 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 00:40:46,897 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:40:46] "POST / HTTP/1.1" 200 -
