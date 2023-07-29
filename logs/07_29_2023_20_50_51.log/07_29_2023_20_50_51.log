@@ -1,0 +1,23 @@
+[ 2023-07-29 20:50:53,312 ] 28 root - INFO - Data Ingestion Method Started
+[ 2023-07-29 20:50:53,352 ] 31 root - INFO - Data Reading As Panda DataFraom
+[ 2023-07-29 20:50:53,360 ] 36 root - INFO - Train Test Split
+[ 2023-07-29 20:50:53,368 ] 42 root - INFO - data ingestion Complites
+[ 2023-07-29 20:50:53,376 ] 66 root - INFO - Read Traning and TEst Data Complited
+[ 2023-07-29 20:50:53,391 ] 67 root - INFO - Train DataFrame Head : 
+   sl_no  gender  ssc_p    ssc_b  hsc_p    hsc_b     hsc_s  degree_p   degree_t workex  etest_p specialisation  mba_p      status    salary
+0     94       0   52.0  Central   62.0  Central  Commerce      54.0  Comm&Mgmt     No    72.00         Mkt&HR  55.41  Not Placed       NaN
+1     85       0   70.0  Central   63.0   Others   Science      70.0   Sci&Tech    Yes    55.00        Mkt&Fin  62.00      Placed  300000.0
+2     96       0   73.0  Central   78.0   Others  Commerce      65.0  Comm&Mgmt    Yes    95.46        Mkt&Fin  62.16      Placed  420000.0
+3    138       0   67.0   Others   63.0  Central  Commerce      72.0  Comm&Mgmt     No    56.00         Mkt&HR  60.41      Placed  225000.0
+4    211       0   80.6   Others   82.0   Others  Commerce      77.6  Comm&Mgmt     No    91.00        Mkt&Fin  74.49      Placed  400000.0
+[ 2023-07-29 20:50:53,392 ] 68 root - INFO - Test DataFrame Head : 
+   sl_no  gender  ssc_p    ssc_b  hsc_p    hsc_b     hsc_s  degree_p   degree_t workex  etest_p specialisation  mba_p  status    salary
+0    201       0   69.0   Others   60.0   Others  Commerce      65.0  Comm&Mgmt     No    87.55        Mkt&Fin  52.81  Placed  300000.0
+1    213       0   67.0   Others   67.0   Others  Commerce      73.0  Comm&Mgmt    Yes    59.00        Mkt&Fin  69.72  Placed  295000.0
+2    139       1   82.0   Others   64.0   Others   Science      73.0   Sci&Tech    Yes    96.00        Mkt&Fin  71.77  Placed  250000.0
+3    177       1   59.0  Central   60.0   Others  Commerce      56.0  Comm&Mgmt     No    55.00         Mkt&HR  57.90  Placed  220000.0
+4     16       1   65.0  Central   75.0  Central  Commerce      69.0  Comm&Mgmt    Yes    72.00        Mkt&Fin  64.66  Placed  200000.0
+[ 2023-07-29 20:50:53,392 ] 70 root - INFO - Obtaning Prrprocessor Object
+[ 2023-07-29 20:50:53,392 ] 32 root - INFO - Data Transformation Started
+[ 2023-07-29 20:50:53,392 ] 37 root - INFO - Pipline Started
+[ 2023-07-29 20:50:53,400 ] 114 root - INFO - Error Occured In Data Transformation Class

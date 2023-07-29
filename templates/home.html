@@ -1,1 +1,210 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Placement Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {background-color: #d0d6d6;font-family: 'Lexend Deca', Helvetica, sans-serif;}* {box-sizing: border-box;}
+    input[type=text] {
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        resize: vertical; 
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    input[type=submit] {
+        background-color: #202120;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 230px;
+    }
+    input[type=submit]:hover {
+        background-color: hsl(123, 40%, 45%);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    .form_wrapper {
+        flex:1;
+        text-align: center;
+    }
+
+    .container {
+        width: 40%;
+        border-radius: 5px;
+        background-color: #8d8f90;
+        padding: 20px;
+        /* display: flex; */
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        display: inline-block;
+        width: 300px;
+        text-align: left;
+        font-family: 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    }
+    div{
+        margin-bottom: 2px;
+    }
+    .selects{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        resize: vertical; 
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    h2 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-weight: normal;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        /* text-shadow: 0 2px white, 0 3px #777; */
+        text-align: center;
+    }
+    h3 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-weight: normal;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        /* text-shadow: 0 2px white, 0 3px #777; */
+        text-align: center;
+        display: inline-block;
+    }
+    h4 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+
+  </style>
+</head>
+
+<body>
+ <div class="login">
+	<h1>Campus Placement Prediction</h1>
+
+    <div class="container" >
+    <form action="{{ url_for('predict')}}"method="post">
+
+        
+        <div class="form-group">
+            <label for="gender" ,> Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><td>
+                <select name="gender" class="selects">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select></td>
+        </div><br>
+
+        <label>SSC Grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="ssc_p" placeholder="percentage" required="required" /><br>
+        
+        <label>HSC Grade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="hsc_p" placeholder="Percentage" required="required" /><br>
+        
+    	<div class="form-group">
+            <label for="hsc_s1">Specialization in HSC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="hsc_s1" class="selects">
+                <option value="Commerce">Commerce</option>
+                <option value="Science">Science</option>
+                <option value="Others">Others</option>
+            </select>
+        </div><br>
+
+        <label>Degree Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="degree_p" placeholder="percentage"required="required" /><br>
+
+
+        <div class="form-group">
+        <label for="degree_t1">UG Degree Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="degree_t1" class="selects">
+                <option value="Sci&Tech">Sci&Tech</option>
+                <option value="Comm&Mgmt">Comm&Mgmt</option>
+                <option value="Arts">Arts</option>
+            </select>
+        </div><br>
+
+        <div class="form-group">
+            <label for="workex1">Work Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="workex1" class="selects">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+        </div><br>
+
+        <label>Employability test percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="etest_p" placeholder="percentage"required="required" /><br>
+
+        <div class="form-group">
+            <label for="specialisation1">Specialization&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="specialisation1" class="selects">
+                <option value="Mkt&HR">Mkt&HR</option>
+                <option value="Mkt&Fin">Mkt&Fin</option>
+            </select>
+        </div><br>
+
+        <label>MBA Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="mba_p" placeholder="percentage"required="required" /><br>
+
+
+        <div class="btn btn-primary btn-block btn-large">
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+
+   <br>
+   <br>
+   <br>
+    
+   <h2>PLACEMENT PREDICTION</h2>
+   <h3>Result</h3>
+   
+    <div class="prediction">
+       <h4>{{prediction_text}}</h4>
+    </div>
+
+    </div>
+ </div>
+ 
+ 
+
+</body>
+</html>
