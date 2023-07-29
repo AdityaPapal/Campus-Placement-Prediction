@@ -1,0 +1,13 @@
+prefix=D:/IMP Folder/1 On Goning Project/Campus Placement Prediction/ProjectOnging/venv/Library
+exec_prefix=D:/IMP Folder/1 On Goning Project/Campus Placement Prediction/ProjectOnging/venv/Library
+libdir=D:/IMP Folder/1 On Goning Project/Campus Placement Prediction/ProjectOnging/venv/Library/lib
+sharedlibdir=D:/IMP Folder/1 On Goning Project/Campus Placement Prediction/ProjectOnging/venv/Library/lib
+includedir=D:/IMP Folder/1 On Goning Project/Campus Placement Prediction/ProjectOnging/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
