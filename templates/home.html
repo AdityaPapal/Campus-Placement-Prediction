@@ -2,37 +2,164 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Placement Prediction</title>
-    <div style="background-image: url(https://www.repairerdrivennews.com/wp-content/uploads/2021/01/poaching-employee-iStock-1272298831-1536x987.jpg);">
-    <!-- BootStrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: #d0d6d6;font-family: 'Lexend Deca', Helvetica, sans-serif;}* {box-sizing: border-box;}
+   
+        input[type=text] {
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        resize: vertical; 
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    input[type=submit] {
+        background-color: #202120;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input[type=submit]:hover {
+        background-color: hsl(123, 40%, 45%);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    .form_wrapper {
+        flex:1;
+        text-align: center;
+    }
 
+    .container {
+        width: 40%;
+        border-radius: 5px;
+        background-color: #8d8f90;
+        padding: 20px;
+        display: flex; 
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        display: inline-block;
+        width: 300px;
+        text-align: left;
+        font-family: 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    }
+    div{
+        
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .select{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        resize: vertical; 
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
 
-    <!-- css -->
-    <link rel="stylesheet" href="static/css/styles.css">
-    
+    h1 {
+        text-align: center;
+        font-family: 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    h2 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-weight: normal;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        line-height: 10px;
+        text-transform: uppercase;
+        /* text-shadow: 0 2px white, 0 3px #777; */
+        text-align: center;
+    }
+    h3 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-weight: normal;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        /* text-shadow: 0 2px white, 0 3px #777; */
+        text-align: center;
+        display: inline-block;
+    }
+    h4 {
+        margin: 1em 0 0.5em 0;
+        color: #343434;
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+    /* .form-group {
+        
+  } */
+
+  #specialisation ,#workex,#hsc_s,#degree_t{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        resize: vertical; 
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+  }
+   
+   
+   
+   
+   
+   
+   
+   </style>    
 
 </head>
 
 <body>
-
-    <!-- As a heading -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">Campus Placement Prediction BY Yash Mohite</a>
-            </div>
-        </div>
-    </nav>
+    <div class="login">
+        <h1>Campus Placement Prediction</h1>
+    
+    
 
     <br><br><br>
 
 
     <div class="container">
         <form action="{{url_for('predict_datapoint')}}" method="POST">
-            <h1>Campus Placement Prediction</h1>
+            
             <div class="form-group">
                 <label for="ssc_p">SSC_Marks:</label>
                 <input type="text" id="ssc_p" name="ssc_p" placeholder="Enter value">
@@ -92,29 +219,26 @@
                 <input type="text" id="mba_p" name="mba_p" placeholder="Enter value">
             </div>
 
-<!-- Submit -->
-<input type="submit" value="Predict" class="btn btn-secondary">
+
+            <div class="btn btn-primary btn-block btn-large">
+                <input type="submit" value="Submit" />
+            </div>
+            
+<br>
+<br>
+<br>
+ 
+<h2>PLACEMENT PREDICTION RESULT</h2>
+
+ <div class="prediction">
+    <h4>{{final_result}}</h4>
+ </div>
+    
+</div>
+</div>
+
+
 </form>
-
-<br>
-<br>
-<h3 style="color: black">{{ final_result }}</h3>
-
-<br>
-<br>
-<p>Yash Mohite</p>
-
-
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
 
 
 </body>

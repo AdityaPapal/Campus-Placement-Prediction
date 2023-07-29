@@ -31,9 +31,9 @@ def predict_datapoint():
         result = pred
 
         if result == 1:
-            return render_template("home.html", final_result="The Probability of getting placement is {}".format(result))
+            return render_template("home.html", final_result="Congratulations You Will Get placements! ...")
         elif result == 0:
-            return render_template("home.html", final_result="The Probability of getting placement is low WORK HARD!{}".format(result))
+            return render_template("home.html", final_result="You are not prepared for placements WORK HARD!....")
 
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=5000, debug=True)
