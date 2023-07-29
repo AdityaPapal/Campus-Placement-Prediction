@@ -13,33 +13,24 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/predict_api',methods = ['post'])
+@app.route('/predict_api',methods = ['get','post'])
 def predict_api():
-    data=request.json['data']
-    print(data)
-    print((list(data.values())))
-    new_data = scalar.transformnp.array((list(data.values())).reshape(-1, 1))
-    output = model.predict(new_data.reshape(-1, 1))
-    print(output)
-    return jsonify(output)
+    data = request.get_json()
+    gender = data['gender']
+    ssc_p = data['ssc_p']
+    hsc_p = data['hsc_p']
+    hsc_s = data['hsc_s']
+    degree_p = data['degree_p']
+    degree_t = data['degree_t']
+    workex = data['workex']
+    etest_p = data['etest_p']
+    specialisation = data['specialisation']
+    mba_p = data['mba_p']
 
+    features = [[gender, ssc_p, hsc_p, hsc_s, degree_p, degree_t, workex, etest_p, specialisation, mba_p]]
+    output = model.predict(features)
+    probability = model.predict_proba(features)
+    return jsonify(round(probability[0][1], 2) * 100)
+    
 if __name__=="__main__":
-    app.run(debug=True)
-
-'''
-{
-    "data": {
-        "gender": 0,
-        "ssc_p": 67.0,
-        "hsc_p": 91.0,
-        "hsc_s": 1,
-        "degree_p": 58.0,
-        "degree_t": 2,
-        "workex": 0,
-        "etest_p": 55.0,
-        "specialisation": 1,
-        "mba_p": 58.8 
-    }
-}
-
-'''
+    app.run(debug=True) 
