@@ -1,0 +1,5 @@
+[ 2023-07-30 18:48:45,731 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 18:48:45,735 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 18:49:29,410 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Scripts\\pip-script.py', reloading
+[ 2023-07-30 18:49:29,577 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+[ 2023-07-30 18:49:29,613 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading

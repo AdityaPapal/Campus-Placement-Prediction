@@ -1,0 +1,3 @@
+[ 2023-07-30 17:20:59,402 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 17:20:59,402 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 17:58:12,812 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\gunicorn\\__init__.py', reloading

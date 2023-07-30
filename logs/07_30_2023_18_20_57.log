@@ -1,0 +1,5 @@
+[ 2023-07-30 18:20:58,910 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 18:20:58,910 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 18:48:29,957 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\gunicorn\\app\\wsgiapp.py', reloading
+[ 2023-07-30 18:48:29,957 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\gunicorn\\app\\base.py', reloading
+[ 2023-07-30 18:48:29,962 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\gunicorn\\util.py', reloading
