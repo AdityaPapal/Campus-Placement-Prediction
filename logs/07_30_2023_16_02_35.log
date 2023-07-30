@@ -1,0 +1,10 @@
+[ 2023-07-30 16:02:37,002 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 16:02:37,010 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\concurrent\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\distutils\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\idlelib\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\lib2to3\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\test\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\turtledemo\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\wsgiref\\__init__.py', reloading
+[ 2023-07-30 16:20:50,927 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\xml\\__init__.py', reloading

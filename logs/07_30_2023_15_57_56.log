@@ -1,0 +1,3 @@
+[ 2023-07-30 15:57:57,780 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 15:57:57,780 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 16:02:32,981 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Scripts\\conda-script.py', reloading
