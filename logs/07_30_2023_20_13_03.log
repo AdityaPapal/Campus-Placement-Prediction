@@ -1,0 +1,8 @@
+[ 2023-07-30 20:13:04,682 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 20:13:04,686 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 20:13:04,728 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 20:13:04,770 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:13:04] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-30 20:13:06,518 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:13:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:15:58,195 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:15:58,195 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:15:58,209 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
