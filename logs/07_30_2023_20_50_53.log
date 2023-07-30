@@ -1,0 +1,41 @@
+[ 2023-07-30 20:50:54,250 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 20:50:54,258 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 20:51:30,139 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:30] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:31,202 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:31] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:33,873 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:34,602 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:34,827 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:35,687 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:35] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:43,850 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:43] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:46,924 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:51:47,806 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:51:47] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\class_weight.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\class_weight.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\deprecation.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\deprecation.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\discovery.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\discovery.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\estimator_checks.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\estimator_checks.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\extmath.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\extmath.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\fixes.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\fixes.py', reloading
+[ 2023-07-30 20:53:56,714 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\graph.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\graph.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\metaestimators.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\metaestimators.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\multiclass.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\multiclass.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\optimize.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\optimize.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\parallel.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\parallel.py', reloading
+[ 2023-07-30 20:53:56,722 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\random.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\random.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\sparsefuncs.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\sparsefuncs.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\stats.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\stats.py', reloading
+[ 2023-07-30 20:53:56,731 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+[ 2023-07-30 20:53:56,739 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
