@@ -2,5 +2,5 @@ Flask
 pickle-mixin
 pandas
 numpy
-sklearn
+scikit-learn
 waitress
