@@ -7,11 +7,8 @@ app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 scalar = pickle.load(open('scaling.pkl', 'rb'))
 
-@app.route('/')
-def home():
-    return render_template('Home.html')
 
-@app.route('/predict', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == "GET":
         return render_template("home.html")
