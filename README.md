@@ -19,7 +19,8 @@ https://github.com/AdityaPapal/Campus-Placement/assets/108569888/6a22bcfb-9dc6-4
 
 
 
-![Campus Placement Prediction - Google Chrome 30-07-2023 15_25_40](https://github.com/AdityaPapal/Campus-Placement/assets/108569888/5911f097-391a-42ff-9b0c-923b4e2fef64=100x100)
+![ab](https://github.com/AdityaPapal/Campus-Placement/assets/108569888/f93c32c3-b29c-43c5-ae1c-db3bc7a15b4c)
+
 
 
 
