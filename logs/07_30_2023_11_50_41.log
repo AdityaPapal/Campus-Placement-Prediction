@@ -1,0 +1,20 @@
+[ 2023-07-30 11:50:42,561 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 11:50:42,561 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 11:50:48,498 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 11:50:48,568 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:50:48] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 11:50:54,749 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:50:54] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 11:50:56,793 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 11:50:56,799 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:50:56] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 11:50:58,837 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:50:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 11:50:59,593 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:50:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 11:51:21,444 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 11:51:21,452 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:51:21] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 11:55:31,039 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,041 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,051 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,053 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,332 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,333 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,591 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,593 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 11:55:31,607 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
