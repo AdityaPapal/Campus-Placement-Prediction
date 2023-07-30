@@ -1,2 +1,4 @@
 [ 2023-07-30 22:47:46,330 ] 224 werkzeug - WARNING -  * Debugger is active!
 [ 2023-07-30 22:47:46,332 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 22:48:07,740 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 22:48:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 22:48:08,094 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 22:48:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
