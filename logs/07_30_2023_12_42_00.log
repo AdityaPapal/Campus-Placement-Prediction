@@ -1,0 +1,35 @@
+[ 2023-07-30 12:42:01,490 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 12:42:01,492 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 12:42:07,348 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:42:07,418 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:42:07] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:42:26,537 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:42:26,552 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:42:26] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:42:35,805 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:42:35,821 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:42:35] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:42:44,379 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:42:44,411 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:42:44] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:43:12,338 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:43:12,357 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:43:12] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:43:25,867 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\pickle.py', reloading
+[ 2023-07-30 12:43:25,914 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2023-07-30 12:43:25,930 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+[ 2023-07-30 12:43:25,996 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\scaffold.py', reloading
+[ 2023-07-30 12:43:26,051 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\globals.py', reloading
+[ 2023-07-30 12:43:26,067 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+[ 2023-07-30 12:43:26,067 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+[ 2023-07-30 12:43:26,067 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+[ 2023-07-30 12:43:26,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[ 2023-07-30 12:43:26,099 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+[ 2023-07-30 12:43:26,099 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+[ 2023-07-30 12:43:26,131 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[ 2023-07-30 12:43:26,141 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+[ 2023-07-30 12:43:26,145 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+[ 2023-07-30 12:43:26,147 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[ 2023-07-30 12:43:26,252 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\sessions.py', reloading
+[ 2023-07-30 12:43:26,267 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+[ 2023-07-30 12:43:26,299 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\config.py', reloading
+[ 2023-07-30 12:43:26,364 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\typing.py', reloading
+[ 2023-07-30 12:43:26,446 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[ 2023-07-30 12:43:26,492 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+[ 2023-07-30 12:43:27,531 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:43:27,531 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:43:27] "POST / HTTP/1.1" 200 -

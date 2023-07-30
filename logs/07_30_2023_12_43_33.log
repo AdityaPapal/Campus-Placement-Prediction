@@ -1,0 +1,77 @@
+[ 2023-07-30 12:43:34,024 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 12:43:34,024 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 12:44:00,038 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:44:00,116 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:44:00] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:44:14,905 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:44:14,916 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:44:14] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:44:23,110 ] 77 root - INFO - Data Frame Gathered
+[ 2023-07-30 12:44:23,122 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:44:23] "POST / HTTP/1.1" 200 -
+[ 2023-07-30 12:44:33,929 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\odr\\__init__.py', reloading
+[ 2023-07-30 12:44:33,929 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+[ 2023-07-30 12:44:33,929 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\odr\\_models.py', reloading
+[ 2023-07-30 12:44:33,929 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\__init__.py', reloading
+[ 2023-07-30 12:44:33,944 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_optimize.py', reloading
+[ 2023-07-30 12:44:33,961 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_minimize.py', reloading
+[ 2023-07-30 12:44:33,961 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_root.py', reloading
+[ 2023-07-30 12:44:33,961 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_root_scalar.py', reloading
+[ 2023-07-30 12:44:33,961 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_minpack_py.py', reloading
+[ 2023-07-30 12:44:33,976 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_zeros_py.py', reloading
+[ 2023-07-30 12:44:33,976 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\optimize\\_nonlin.py', reloading
+[ 2023-07-30 12:44:33,976 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\setup.py', reloading
+[ 2023-07-30 12:44:33,976 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\__init__.py', reloading
+[ 2023-07-30 12:44:33,992 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_waveforms.py', reloading
+[ 2023-07-30 12:44:33,992 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_bsplines.py', reloading
+[ 2023-07-30 12:44:33,992 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_filter_design.py', reloading
+[ 2023-07-30 12:44:34,008 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_fir_filter_design.py', reloading
+[ 2023-07-30 12:44:34,008 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_ltisys.py', reloading
+[ 2023-07-30 12:44:34,008 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_lti_conversion.py', reloading
+[ 2023-07-30 12:44:34,023 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_signaltools.py', reloading
+[ 2023-07-30 12:44:34,023 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_spectral_py.py', reloading
+[ 2023-07-30 12:44:34,039 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_wavelets.py', reloading
+[ 2023-07-30 12:44:34,039 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_peak_finding.py', reloading
+[ 2023-07-30 12:44:34,055 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\signal\\_czt.py', reloading
+[ 2023-07-30 12:44:34,055 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+[ 2023-07-30 12:44:34,055 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_csc.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_dok.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_coo.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_dia.py', reloading
+[ 2023-07-30 12:44:34,071 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_bsr.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_construct.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_extract.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\spatial\\__init__.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\spatial\\_kdtree.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\spatial\\_plotutils.py', reloading
+[ 2023-07-30 12:44:34,086 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\special\\__init__.py', reloading
+[ 2023-07-30 12:44:34,118 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\special\\_basic.py', reloading
+[ 2023-07-30 12:44:34,133 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\__init__.py', reloading
+[ 2023-07-30 12:44:34,133 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_stats_py.py', reloading
+[ 2023-07-30 12:44:34,154 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\distributions.py', reloading
+[ 2023-07-30 12:44:34,165 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_continuous_distns.py', reloading
+[ 2023-07-30 12:44:34,181 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_discrete_distns.py', reloading
+[ 2023-07-30 12:44:34,181 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_morestats.py', reloading
+[ 2023-07-30 12:44:34,196 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_binned_statistic.py', reloading
+[ 2023-07-30 12:44:34,196 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_multivariate.py', reloading
+[ 2023-07-30 12:44:34,212 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_entropy.py', reloading
+[ 2023-07-30 12:44:34,212 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\stats\\_hypotests.py', reloading
+[ 2023-07-30 12:44:34,227 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\version.py', reloading
+[ 2023-07-30 12:44:34,227 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\__config__.py', reloading
+[ 2023-07-30 12:44:34,227 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scipy\\__init__.py', reloading
+[ 2023-07-30 12:44:34,243 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\__init__.py', reloading
+[ 2023-07-30 12:44:34,254 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\http\\__init__.py', reloading
+[ 2023-07-30 12:44:34,259 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\http\\request\\form.py', reloading
+[ 2023-07-30 12:44:34,259 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\http\\request\\__init__.py', reloading
+[ 2023-07-30 12:44:34,259 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\item.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\selector\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\selector\\unified.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\scrapy\\spiders\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\seaborn\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\service_identity\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\service_identity\\exceptions.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sipbuild\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearnex\\__init__.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearnex\\dispatcher.py', reloading
+[ 2023-07-30 12:44:34,275 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\sklearnex\\_config.py', reloading
