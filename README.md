@@ -11,14 +11,16 @@ With the help of this project we can predict whether students will be placed on 
 
 
 
-[https://github.com/AdityaPapal/Campus-Placement/assets/108569888/0da51f36-804e-4f72-83f0-a21de8eaacc4](https://github.com/AdityaPapal/Campus-Placement/assets/108569888/59830de3-f4c3-45b7-90e6-344dfb678474da51f36-804e-4f72-83f0-a21de8eaacc4)
+
+https://github.com/AdityaPapal/Campus-Placement/assets/108569888/6a22bcfb-9dc6-4f54-b474-81e4d9c4d2a3
 
 
 
 
 
 
-![main](https://github.com/AdityaPapal/Campus-Placement/assets/108569888/b17c9249-215c-4461-8fd8-5a55e45988f0)
+![Campus Placement Prediction - Google Chrome 30-07-2023 15_25_40](https://github.com/AdityaPapal/Campus-Placement/assets/108569888/5911f097-391a-42ff-9b0c-923b4e2fef64)
+
 
 
 
