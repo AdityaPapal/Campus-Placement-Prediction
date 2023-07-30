@@ -7,3 +7,9 @@
 [ 2023-07-30 11:56:29,152 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:56:29] "GET / HTTP/1.1" 200 -
 [ 2023-07-30 11:56:29,720 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:56:29] "GET / HTTP/1.1" 200 -
 [ 2023-07-30 11:56:29,937 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 11:56:29] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 12:00:35,497 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 12:00:35] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 12:03:26,893 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\setup.py', reloading
+[ 2023-07-30 12:03:26,893 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\setup.py', reloading
+[ 2023-07-30 12:03:26,893 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\setup.py', reloading
+[ 2023-07-30 12:03:26,893 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\setup.py', reloading
+[ 2023-07-30 12:03:26,893 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\setup.py', reloading

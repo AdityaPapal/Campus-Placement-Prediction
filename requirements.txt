@@ -1,1 +1,5 @@
 Flask
+pickle-mixin
+pandas
+numpy
+sklearn

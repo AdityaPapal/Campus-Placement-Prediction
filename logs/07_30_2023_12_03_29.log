@@ -1,0 +1,3 @@
+[ 2023-07-30 12:03:30,835 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 12:03:30,838 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 12:03:34,361 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\typing.py', reloading
