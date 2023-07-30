@@ -28,6 +28,7 @@ def predict_datapoint():
             mba_p=float(request.form.get("mba_p")),
         )
 
+
         final_data = data.get_data_as_data_frame()
         predict_pipline = PredictPipline()
         pred = predict_pipline.predict(final_data)
