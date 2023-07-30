@@ -7,7 +7,7 @@ With the help of this project we can predict whether students will be placed on 
 
 ## Demo
 
-[Campus Placement Prediction](https://campus-placement-predication.onrender.com/)
+[Campus Placement Prediction](https://campus-placement.onrender.com/)
 
 
 
