@@ -1,0 +1,16 @@
+[ 2023-07-30 15:02:30,341 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 15:02:30,341 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 15:02:34,306 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\encodings\\__init__.py', reloading
+[ 2023-07-30 15:02:34,312 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\encodings\\aliases.py', reloading
+[ 2023-07-30 15:02:34,319 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\encodings\\utf_8.py', reloading
+[ 2023-07-30 15:02:34,323 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\encodings\\cp1252.py', reloading
+[ 2023-07-30 15:02:34,333 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+[ 2023-07-30 15:02:34,341 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\importlib\\__init__.py', reloading
+[ 2023-07-30 15:02:34,345 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\warnings.py', reloading
+[ 2023-07-30 15:02:34,354 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\importlib\\_abc.py', reloading
+[ 2023-07-30 15:02:34,357 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\contextlib.py', reloading
+[ 2023-07-30 15:02:34,366 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\collections\\__init__.py', reloading
+[ 2023-07-30 15:02:34,385 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\keyword.py', reloading
+[ 2023-07-30 15:02:34,387 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\operator.py', reloading
+[ 2023-07-30 15:02:34,392 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\reprlib.py', reloading
+[ 2023-07-30 15:02:34,401 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\venv\\Lib\\functools.py', reloading

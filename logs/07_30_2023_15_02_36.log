@@ -1,0 +1,8 @@
+[ 2023-07-30 15:02:37,700 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 15:02:37,700 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 15:20:11,138 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 15:20:11] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 15:20:26,124 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 15:20:26] "GET / HTTP/1.1" 200 -
+[ 2023-07-30 15:20:31,686 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2023-07-30 15:20:31,702 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+[ 2023-07-30 15:20:31,929 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\pickle.py', reloading
+[ 2023-07-30 15:20:32,065 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\papal\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
