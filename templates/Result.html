@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display results</title>
+    <style>
+        body {background-color: #d0d6d6;font-family: 'Lexend Deca', Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.container {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  background-color: #8d8f90;
+  padding: 20px;
+  /* display: flex; */
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h1 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	/* text-shadow: 0 2px white, 0 3px #777; */
+	text-align: center;
+
+}
+
+    h2 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	/* text-shadow: 0 2px white, 0 3px #777; */
+	text-align: center;
+    display: inline-block;
+
+}
+
+h3 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+
+h4 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-size: 22px;
+	line-height: 50px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', sans-serif;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+    <h1>PLACEMENT PREDICTION RESULT</h1>
+
+    <div class="container" >
+       
+        <!-- <h4>{{ pred }}</h4> -->
+        
+        <div class="prediction">
+            <h3>{{ final_result }}</h3>
+    </div>
+
+</div>
+</body>
+</html>
