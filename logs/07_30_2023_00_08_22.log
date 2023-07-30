@@ -1,0 +1,14 @@
+[ 2023-07-30 00:08:23,305 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 00:08:23,305 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 00:08:30,779 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:30] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:31,608 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:31] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:31,842 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:31] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:32,061 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:32] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:32,280 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:32] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:32,546 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:32] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:32,780 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:32] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:32,983 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 00:08:32] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[ 2023-07-30 00:08:42,462 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 00:08:42,462 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 00:08:42,462 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 00:08:42,462 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading

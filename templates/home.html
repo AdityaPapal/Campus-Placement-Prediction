@@ -1,0 +1,212 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Placement Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: #d0d6d6;font-family: 'Lexend Deca', Helvetica, sans-serif;}* {box-sizing: border-box;}
+   
+    input[type=text] {
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        resize: vertical; 
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    input[type=submit] {
+        background-color: #202120;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input[type=submit]:hover {
+        background-color: hsl(123, 40%, 45%);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    .form_wrapper {
+        flex:1;
+        text-align: center;
+    }
+
+    .container {
+        width: 40%;
+        border-radius: 5px;
+        background-color: #8d8f90;
+        padding: 20px;
+        display: flex; 
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        display: inline-block;
+        width: 300px;
+        text-align: left;
+        font-family: 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    }
+    div{
+        
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .select{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        resize: vertical; 
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 1px;
+        color: #343434;
+        font-size: 30px;
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Trebuchet MS', sans-serif;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        line-height: 10px;
+    }
+ 
+
+  #specialisation ,#workex,#hsc_s,#degree_t{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        resize: vertical; 
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Trebuchet MS', sans-serif;
+  }
+   
+   
+   
+   
+   
+   
+   
+   </style>    
+
+</head>
+
+<body>
+    <div class="login">
+        <br><br>
+        <h1>Campus Placement Prediction</h1>
+        <br><br>
+
+
+
+    <div class="container">
+        <form action="{{url_for('predict_datapoint')}}" method="POST">
+            
+            <div class="form-group">
+                <label for="ssc_p">SSC_Marks:</label>
+                <input type="text" id="ssc_p" name="ssc_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="hsc_p">HSC_Marks:</label>
+                <input type="text" id="hsc_p" name="hsc_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="hsc_s">Stream:</label>
+                <select id="hsc_s" name="hsc_s">
+                    <option value="1">Commerce</option>
+                    <option value="2">Science</option>
+                    <option value="0">Arts</option>               
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="degree_p">Degree_Marks:</label>
+                <input type="text" id="degree_p" name="degree_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="degree_t">Degree Stream:</label>
+                <select id="degree_t" name="degree_t">
+                    <option value="2">Sci/Tech</option>
+                    <option value="0">Comm/Mgmt</option>
+                    <option value="1">Others</option>               
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="workex">Work Experience:</label>
+                <select id="workex" name="workex">
+                    <option value="0">No</option>
+                    <option value="2">Yes</option>                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="etest_p">Aptitude Test:</label>
+                <input type="text" id="etest_p" name="etest_p" placeholder="Enter value">
+            </div>
+
+            <div class="form-group">
+                <label for="specialisation">Specialisation:</label>
+                <select id="specialisation" name="specialisation">
+                    <option value="1">Mkt/HR</option>
+                    <option value="0">Mkt/Fin</option>                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mba_p">MBA Marks:</label>
+                <input type="text" id="mba_p" name="mba_p" placeholder="Enter value">
+            </div>
+
+
+            <div class="btn btn-primary btn-block btn-large">
+                <input type="submit" value="Submit" />
+            </div>
+            
+
+    
+</div>
+</div>
+
+
+</form>
+
+
+</body>
+
+</html>
+
+
+
+            
+
