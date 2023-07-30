@@ -1,0 +1,6 @@
+[ 2023-07-30 20:10:08,276 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-30 20:10:08,277 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-30 20:10:08,294 ] 224 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2023-07-30 20:10:41,337 ] 224 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2023-07-30 20:10:45,201 ] 224 werkzeug - INFO -  * Restarting with watchdog (windowsapi)

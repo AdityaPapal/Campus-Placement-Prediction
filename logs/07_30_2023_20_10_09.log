@@ -1,0 +1,14 @@
+[ 2023-07-30 20:10:10,154 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-30 20:10:10,157 ] 224 werkzeug - INFO -  * Debugger PIN: 117-428-366
+[ 2023-07-30 20:10:15,226 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:10:15] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 20:10:15,787 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:10:15] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 20:10:15,973 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2023 20:10:15] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2023-07-30 20:10:39,496 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:39,497 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:39,507 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:39,788 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:39,789 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:39,801 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:40,024 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:40,025 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
+[ 2023-07-30 20:10:40,027 ] 224 werkzeug - INFO -  * Detected change in 'd:\\IMP Folder\\1 On Goning Project\\Campus Placement Prediction\\ProjectOnging\\app.py', reloading
