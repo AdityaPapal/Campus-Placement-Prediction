@@ -7,7 +7,7 @@ With the help of this project we can predict whether students will be placed on 
 
 ## Certification 
 
-[Campus Placement Prediction][https://drive.google.com/file/d/1qHIQ8kYT-5EohqmVXSCohv9IzgKQ10gI/view?usp=sharing]
+[Campus Placement Prediction](https://drive.google.com/file/d/1qHIQ8kYT-5EohqmVXSCohv9IzgKQ10gI/view?usp=sharing)
 
 ## Demo
 
